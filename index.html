@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portifólio</title>
+
+    <script src="JavaScript_Portifolio.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/script-serif" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="linkedin-kaue"
+      href="https://www.linkedin.com/in/kauesoaresgoncalves/"
+    />
+    <link rel="github-kaue" href="https://www.github.com/git-kaue" />
+    <link rel="email-kaue" href="mailto:kaue.soares.goncalves@gmail.com" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Kauê Soares Gonçalves</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#inicio" class="active">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <a
+          rel="github-kaue"
+          href="https://www.github.com/git-kaue"
+          rel="noopener noreferrer"
+          target="_blank"
+          data-tooltip="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          rel="linkedin-kaue"
+          href="https://www.linkedin.com/in/kauesoaresgoncalves"
+          rel="noopener noreferrer"
+          target="_blank"
+          data-tooltip="Linkedin"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          rel="email-kaue"
+          href="mailto:kaue.soares.goncalves@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+          data-tooltip="E-mail"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </header>
+
+    <!-- section Inicio - Style_inicio.CSS " -->
+    <section class="perfil" id="inicio">
+      <div class="perfil-text">
+        <!-- <span class="badge">Disponível para projetos</span> -->
+        <h1>Olá, eu sou o<span> Kauê</span></h1>
+        <div class="typing-container">
+          <h2>Analista de Dados</h2>
+          <!-- <h2>Help Desk</h2>
+          <h2>Suporte Tecnico</h2> -->
+        </div>
+
+        <p>
+          Atualmente, sou estudante dedicado com conhecimento em Cloud
+          Computing, Além disso, possuo experiência e conhecimento em
+          ferramentas essenciais para <strong>ELT</strong>,
+          <strong>SQL</strong>, <strong>Linux</strong>,
+          <strong>Git/GitHub</strong>, <strong>PowerBI</strong>,
+          <strong>Python</strong>,<strong>Excel</strong> e
+          <strong>Pandas</strong>, que complementam minha base técnica.
+        </p>
+
+        <!-- <div class="projetos-buttons">
+            <a href="#projetos" class="btn-primary">Ver Projetos → </a>
+            <a href="cv/Kauê_Soares_Gonçalves_CV.pdf" class="btn-outline" download>Download CV ⬇ </a>
+        </div> -->
+
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i> Curitiba, Brasil
+        </div>
+      </div>
+
+      <div class="perfil-img">
+        <img class="minha_foto" src="img/Perfil.png" alt="Imagem de Perfil" />
+        <img
+          class="badge-AWS-practitioner"
+          src="img/AWS_cloud_practitioner.png"
+          alt="AWS Cloud Practitioner"
+        />
+      </div>
+
+      <!-- </div >
+    <img class="badge-AWS-IA-practitioner" src="img/AWS_cloud_IA_practitioner.png" alt="AWS Cloud Practitioner">
+  </div> -->
+    </section>
+
+    <!-- section class="skills" id="inicio" -->
+    <section class="skills" id="especialidades">
+      <h2>Minhas Especialidades</h2>
+      <p>
+        Combinando desenvolvimento web moderno com análise de dados para criar
+        soluções completas
+      </p>
+
+      <div class="skills-container">
+        <!-- Card 1 -->
+        <div class="skill-card">
+          <div class="icon blue"><i class="fas fa-code"></i></div>
+          <h3>Desenvolvimento Frontend</h3>
+          <p>Criação de interfaces modernas e responsivas</p>
+          <div class="tags">
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="skill-card">
+          <div class="icon violet"><i class="fas fa-chart-bar"></i></div>
+          <h3>Análise de Dados</h3>
+          <p>Insights e visualizações de dados</p>
+          <div class="tags">
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Excel</span>
+            <span>SQL</span>
+            <span>PowerBI</span>
+            <span>Python</span>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="skill-card">
+          <div class="icon violet"><i class="fa fa-windows"></i></div>
+          <h3>Sistemas Operacionais</h3>
+          <p>Gerenciamento e configuração de sistemas operacionais</p>
+          <div class="tags">
+            <span>Linux Ubuntu</span>
+            <span>Linux Mint</span>
+            <span>Linux MiniOS</span>
+            <span>Windows 7 /10</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section class="projetos" id="inicio" -->
+    <!-- <section id="projetos">
+        <div class="projects-header">
+      <div>
+        <h2>Projetos em Destaque</h2>
+        <p>Alguns dos meus trabalhos mais recentes</p>
+      </div>
+      <a href="#todos" class="btn-outline">Ver Todos →</a>
+    </div>
+
+    <h2>Meus Projetos</h2>
+
+    <div class="grid">
+      Project 1
+      <article class="projeto">
+        <h3>Projeto 1</h3>
+        <img src="img/Perfil.png" alt="Imagem do Projeto 1">
+        <div class="project-card">
+          <span class="category">Data Analysis</span>
+          <span class="category">Data Analysis</span>
+        <h3>Dashboard de Vendas Interativo</h3>
+        <p>Dashboard completo com análises de vendas, gráficos interativos e KPIs em tempo real usando React e Python.</p>
+
+        <div class="tags">
+          <span>React</span>
+          <span>D3.js</span>
+          <span>Python</span>
+          <span>React</span>
+          <span>D3.js</span>
+          <span>Python</span>
+        </div>
+
+          <div class="btn-github">
+            <a href="https://www.github.com/git-kaue" class="btn-outline" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!Project 2 -->
+    <!-- <article class="projeto">
+        <img src="img/projeto2.jpg" alt="Imagem do Projeto 2">
+        <h3>Projeto 2</h3>
+        <p>Descrição breve do projeto, tecnologias usadas e objetivo.</p>
+        <a href="#">Ver mais</a>
+      </article> -->
+
+    <!-- Project 3 -->
+    <!-- <article class="projeto">
+        <img src="img/projeto3.jpg" alt="Imagem do Projeto 3">
+        <h3>Projeto 3</h3>
+        <p>Descrição breve do projeto, tecnologias usadas e objetivo.</p>
+        <a href="#">Ver mais</a>
+      </article>
+    </div> -->
+
+    <!-- </section> -->
+
+    <!-- section class="contact" CSS="projetos" -->
+    <!-- <section class="contact-section">
+  <p>Estou sempre interessado em novos projetos e oportunidades. Vamos conversar sobre como posso ajudar!</p>
+  <div class="contact-buttons">
+    <a href="#contato" class="btn-primary">Entre em Contato →</a>
+    <a href="mailto:seuemail@exemplo.com" class="btn-outline">Enviar Email</a>
+  </div>
+</section> -->
+
+    <!-- Penultimo footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- kaue soares Goncalves -->
+        <div class="footer-column">
+          <h3>Kauê Soares Gonçalves</h3>
+          <p>Curitiba, Brasil</p>
+        </div>
+
+        <!-- links-rapidos -->
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <!-- Conecte-se -->
+        <div class="footer-column">
+          <h3>Conecte-se</h3>
+          <p>kauesoaresgoncalves@outlook.com</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/kauesoaresgoncalves"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://www.github.com/git-kaue"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="mailto:kauesoaresgoncalves@outlook.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Ultimo footer -->
+    <footer class="footer-end">
+      <p>&copy; 2026 - Kauê Soares Gonçalves. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="JavaScript_Portifolio.js"></script>
+  </body>
+</html>
